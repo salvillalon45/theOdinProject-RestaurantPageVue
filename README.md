@@ -1,24 +1,17 @@
-# the-odin-project-frameworks-vue-project
+# theOdinProject-Frameworks
+[TheOdinProject: Javascript] - Project: Frameworks
 
-## Project setup
-```
-yarn install
-```
+# Summary
+I did this project before. You can find the original Project Here: https://salvillalon45.github.io/theOdinProject-RestaurantPage/
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+I did this project again so that I can practice using the Vue Framework. 
+ 
+You can find more on the project here: [The Odin Project - Frameworks](https://www.theodinproject.com/courses/javascript/lessons/frameworks)
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Technologies:
+  - HTML
+  - CSS
+  - JavaScript
+  - npm
+  - webpack
+  - Vue
