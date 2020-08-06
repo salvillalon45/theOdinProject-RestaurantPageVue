@@ -1,0 +1,11 @@
+/* Our Story Page */
+/* --------------------------------------- */
+.our-story-container h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.our-story-container {
+    padding: 30px;
+}

@@ -1,0 +1,45 @@
+/* Header Section */
+/* --------------------------------------- */
+header {
+    width: 100%;
+    /* If we are going to place a footer using flexbox, then we do not use overflow hidden in the header */
+    /*overflow: hidden;*/
+    height: 70px;
+    line-height: 70px;
+    background-color: #f3ecdc;
+}
+
+.nav-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    font-size: xx-large;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.menu {
+    float: right;
+    list-style: none;
+}
+
+.menu li {
+    float: left;
+    width: 120px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+
+a:hover {
+    color: #0014ff99;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+

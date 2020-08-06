@@ -1,0 +1,79 @@
+/* Index Page  */
+/* --------------------------------------- */
+.jumbotron {
+    background-image: url("../../assets/images/jumbotron.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+    text-align: center;
+}
+
+.overlay-container {
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron-text {
+    position: relative;
+    top: 9rem;
+    padding: 30px;
+    color: white;
+    background-color: #00000094;
+    width: 590px;
+}
+
+.jumbotron-text h1, h2 {
+    font-weight: 200;
+}
+
+/* Index Page and Menu Page */
+/* --------------------------------------- */
+.offer-container, .menu-container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    /* Made the width smaller and added margin. By changing the width it makes the columns try to fit into this space  */
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.offer-card, .menu-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offer-card img, .menu-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.offer-card h3, .menu-card h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+.offer-card h4, .menu-card h4 {
+    font-weight: 100;
+}
+
+.offer-container-text, .menu-container-text {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.offer-container-text h2 {
+    font-weight: 500;
+}

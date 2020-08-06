@@ -1,0 +1,19 @@
+/* Location Page */
+/* --------------------------------------- */
+.location-container h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.location-container {
+    padding: 30px;
+}
+
+.location-container {
+    text-align: center;
+}
+
+.location-container h1 {
+    margin-bottom: 10px;
+}

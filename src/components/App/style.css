@@ -1,0 +1,32 @@
+/* Overall */
+/* --------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, #app {
+    height: 100%;
+}
+
+body, #app {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Slab', serif;
+    background-color: #f0f0f0;
+}
+
+main {
+    flex: 1 0 auto;
+    margin-bottom: 40px;
+}
+
+button, i, li {
+    cursor: pointer;
+}
+
+/* To display hide pages that are not clicked on  */
+/* --------------------------------------- */
+.hidden {
+    display: none;
+}
