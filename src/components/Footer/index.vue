@@ -20,4 +20,5 @@
 
 <script src="./script.js"></script>
 
-<style scoped src="./style.css"></style>
+<style scoped src="./style.css">
+</style>

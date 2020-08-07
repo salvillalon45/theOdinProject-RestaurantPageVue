@@ -1,5 +1,7 @@
 /* Footer */
 /* --------------------------------------- */
+@import "../../assets/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css";
+
 .footer {
     flex-shrink: 0;
     height: 70px;
